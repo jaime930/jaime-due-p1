@@ -1,5 +1,5 @@
 .App-header {
-  background-color: #c93c67;
+  background-color: #cf91e7;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   padding: 10px;
-  background-color: #b8335c;
+  background-color: #8e6194;
 }
 
 nav a {
@@ -36,11 +36,20 @@ button {
   font-size: 0.8em;
   font-weight: 700;
   color: #ffffff;
-  background-color: #b8335c;
-  border-color: #c93c67;
+  border: none;
+  margin: 10px;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #c93c67;
+  background-color: #a3cec3;
+}
+
+h4 {
+  font-weight: 400;
+  color: purple;
+}
+
+p {
+  font-size: 1.5em;
 }

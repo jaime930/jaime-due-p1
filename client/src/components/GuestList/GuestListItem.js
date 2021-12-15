@@ -20,10 +20,10 @@ const GuestListItem = props => {
     };
 
     return (
-        <div className="guestList">
+        <div>
             <div className="guestListItem" onClick={() => handleClickGuest(guest)}>
                 <p>"{guest.comment}"</p>
-                <small>{guest.fName} {guest.lName}</small>
+                <h4>{guest.fName} {guest.lName}</h4>
             </div>
             <div className="guestControls">
                 <button onClick={() => deleteGuest(guest)}>Delete</button>
